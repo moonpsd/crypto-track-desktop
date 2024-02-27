@@ -1,0 +1,19 @@
+<!-- crypto-list.component.html -->
+
+<h1 class="lineUp">Lista Atualizada:</h1>
+
+<div class="cont">
+  <section id="container">
+    <ul class="crypto-list">
+      <li *ngFor="let crypto of cryptos" class="crypto-item">
+        <div class="named">
+          <h3 class="crypto-name">{{ crypto.name }}</h3>
+        </div>
+        <div class="crypto-stuff">
+          <p class="crypto-symbol">Symbol: {{ crypto.symbol }}</p>
+          <p class="crypto-price">Price: {{ crypto.current_price | currency:'USD':'symbol':'1.2-2' }}</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>

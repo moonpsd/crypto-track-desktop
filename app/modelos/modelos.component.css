@@ -1,0 +1,158 @@
+body {
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.BMWiX1 img {
+  width: 200px;
+  transform: scaleX(-1);
+}
+
+.BMWiX1 img:hover {
+  transition: 0.3s ease-in-out;
+  width: 230px;
+  transform: scaleX(-1);
+}
+
+.BMWiX1 {
+  cursor: pointer;
+}
+
+.M60 img {
+  width: 200px;
+}
+
+.M60 img:hover {
+  transition: 0.3s ease-in-out;
+  width: 230px;
+}
+
+.M60 {
+  cursor: pointer;
+}
+
+.Bar {
+  display: flex;
+  gap: 15px;
+  font-weight: bolder;
+}
+
+.titles {
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.titles h1 {
+  margin: 30px 0px 20px 0px;
+}
+
+.titles h3 {
+  font-weight: lighter;
+  margin: 0px 0px 10px 0px;
+}
+
+.titles h4 {
+  font-weight: lighter;
+  margin: 0px 0px 10px 0px;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  font-weight: bolder;
+  width: 200px;
+  height: 50px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  transition: 1s ease-in-out;
+  background: #dfdfdf;
+}
+
+button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+button span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.BMWiX1 h3 {
+  font-weight: lighter;
+  margin-top: 4px;
+}
+
+.BMWiX1 h4 {
+  font-weight: bold;
+  color: rgb(138, 138, 138);
+  margin: 5px 0 8px 0;
+  font-size: 15px;
+}
+
+.BMWiX1 h5 {
+  font-weight: lighter;
+}
+
+.M60 h3 {
+  font-weight: lighter;
+  margin-top: 4px;
+}
+
+.M60 h4 {
+  font-weight: bold;
+  color: rgb(138, 138, 138);
+  margin: 5px 0 8px 0;
+  font-size: 15px;
+}
+
+.M60 h5 {
+  font-weight: lighter;
+}
+
+#BMWi {
+  position: relative;
+  gap: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+.titulo {
+  margin: 10px 0px 10px 0px;
+}
+
+a {
+  color: #000000;
+  position: relative;
+  text-decoration: none;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  border-radius: 1px;
+  background-color: #333333;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+#BMWi {
+  margin-bottom: 60px;
+}/*# sourceMappingURL=modelos.component.css.map */
