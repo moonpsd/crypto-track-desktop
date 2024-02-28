@@ -1,12 +1,14 @@
-
-*{
+@media only screen and (max-width: 767px) {
+  *{
     font-family: "Roboto Condensed", sans-serif;
     margin: 0;
 }
 
 #cont-0 {
     margin-top: 40px;
-    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .about p {
@@ -23,7 +25,7 @@
 .price-bar {
     margin-top: 10px;
     height: 10px;
-    width: 490px;
+    width: 330px;
     border-radius: 30px;
     background: rgb(255,0,0);
     background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(52,198,0,1) 50%, rgba(209,255,0,1) 100%);
@@ -40,7 +42,7 @@
     margin: 10px 0 20px 10px;
     display: flex;
     justify-content: flex-start;
-    gap: 110px;
+    gap: 30px;
 }
 
 .lineUp {
@@ -63,3 +65,4 @@
       transform: translateY(0%);
     }
   }
+}

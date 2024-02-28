@@ -1,5 +1,6 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 767px) {
   *{
+    overflow: hidden;
     z-index: 99;
   }
   
@@ -12,7 +13,7 @@
     
     hr.solid {
       margin-top: 50px;
-      width: 1150px;
+      width: 100%;
       border-top: 1px solid #c5c5c5;
     }
     
@@ -37,15 +38,6 @@
       width: 300px;
     }
     
-    .tittle {
-      font-weight: bolder;
-    }
-    
-    .list-links {
-      display: flex;
-      flex-direction: row;
-      border-left: 1px black solid;
-    }
     
     li {
       list-style-type: none;
@@ -67,21 +59,22 @@
     
     .email {
       font-family: "Roboto Condensed", sans-serif;
-      margin-top: 20px;
+      margin-top: 5px;
       flex-direction: row;
       align-items: center;
+      display: flex;
+      justify-content: center;
     }
     
     .email button {
       padding: 10px;
-      width: 90px;
+      width: 490px;
       border-radius: 10px;
-      margin-left: 10px;
-    
     }
     
     .email input {
       padding: 10px;
+      width: 180px;
       border: 2px rgb(224, 224, 224) solid;
       border-radius: 10px;
     }
@@ -150,6 +143,7 @@
 
 @media only screen and (max-width: 768px) {
   * {
+    font-size: 13px;
     z-index: 99;
     
   }
@@ -178,7 +172,7 @@
   }
   
   .summary img {
-    margin-top: 20px; /* Reduzido o espaço superior */
+    margin-top: 0px; /* Reduzido o espaço superior */
     width: 100%; /* Alterado para ocupar toda a largura disponível */
   }
   

@@ -1,6 +1,5 @@
-
+@media only screen and (max-width: 767px){
   * {
-    overflow: hidden;
     max-width: 100%;
     max-height: 1080px;
     font-family: "Roboto Condensed", sans-serif;
@@ -11,6 +10,7 @@
   }
 
   #home {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
   }
@@ -86,7 +86,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px;
     font-size: 25px;
   }
 
@@ -127,10 +126,10 @@
     gap: 30px;
 
     .container {
-      margin-top: 60px;
+      margin-top: 30px;
       position: relative;
       width: 190px;
-      height: 254px;
+      height: 154px;
       transition: 200ms;
     }
     
@@ -164,7 +163,7 @@
       transition-timing-function: ease-in-out-out;
       transition-delay: 100ms;
       position: absolute;
-      font-size: x-large;
+      font-size: 15px;
       font-weight: bold;
       color: white;
     }
@@ -479,4 +478,4 @@
                       supported by Chrome, Edge, Opera and Firefox */
     }
   }
-
+}

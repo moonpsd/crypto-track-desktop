@@ -1,4 +1,5 @@
-* {
+@media only screen and (max-width: 768px) {
+  * {
     font-family: "Roboto Condensed", sans-serif;
   }
   
@@ -12,7 +13,7 @@
     margin-top: 30px;
     border: 1px black solid;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.219);
-    width: 800px;
+    width: 340px;
     border-radius: 50px;
     background-color: rgb(243, 243, 243);
   }
@@ -29,10 +30,10 @@
   
   .crypto-item {
     display: flex;
-    justify-content: space-between; /* Alterado */
+    justify-content: space-between;
     border-bottom: 1px solid #ccc;
     padding: 10px;
-    width: 80%; /* Para ocupar toda a largura do container */
+    width: 70%;
   }
   
   .crypto-item:last-child {
@@ -42,34 +43,33 @@
   .crypto-name {
     display: flex;
     justify-content: flex-start;
-    width: 150px;
+    width: 0px;
     font-size: 18px;
     font-weight: bold;
   }
-  
-  .crypto-price {
-    display: flex;
-    justify-content: flex-start;
-    width: 130px;
-  }
 
   .crypto-symbol {
-    margin-left: 135px;
+    margin-left: 10px;
     display: flex;
     justify-content: flex-start;
-    width: 130px;
+    width: 10px;
     color: #666;
     font-size: 16px;
   }
   
   .crypto-price {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-right: 70px;
     color: #333;
+    width: 10px;
   }
   
   .crypto-stuff {
     display: flex;
     justify-content: flex-end;
-    margin-left: 60px;
+    margin-left: 10px;
     gap: 50px;
     flex-direction: row;
   }
@@ -102,3 +102,4 @@
     }
   }
   
+}
