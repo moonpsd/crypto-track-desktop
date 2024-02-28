@@ -11,7 +11,6 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ModelosComponent } from './modelos/modelos.component';
-import { PesquisaComponent } from './pesquisa/pesquisa.component';
 import { AccountComponent } from './account/account.component';
 import { ContactComponent } from 'src/contact/contact.component';
 
@@ -25,7 +24,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NavbarComponent,
     FooterComponent,
     ModelosComponent,
-    PesquisaComponent,
     AccountComponent,
     AppComponent,
     CryptoListComponent,

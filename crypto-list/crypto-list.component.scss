@@ -1,0 +1,46 @@
+* {
+    overflow-x: hidden;
+    max-width: 1920px;
+    max-height: 1080px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  
+  .bg {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bg img {
+    height: 400px;
+  }
+  
+  h4 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .links a {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .links > a {
+    padding: 0 5px;
+    box-shadow: inset 0 0 0 0 white;
+    transition: all 0.5s ease-in-out 0s;
+  }
+  
+  .links > a:hover {
+    box-shadow: inset 0 300px 0 0 rgb(0, 0, 0);
+    color: white;
+  }
+  
