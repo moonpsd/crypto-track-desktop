@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../Test/src/app/footer"
+		},
+		{
+			"path": "../../../../Test/src/app/modelos"
+		},
+		{
+			"path": "../../../../Test/src/app/navbar"
+		},
+		{
+			"path": "../../../../Test/src/app/pesquisa"
+		},
+		{
+			"path": "../../../../Test/src/app/account"
+		}
+	],
+	"settings": {}
+}

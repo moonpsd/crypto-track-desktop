@@ -1,0 +1,257 @@
+@charset "UTF-8";
+@media only screen and (min-width: 1024px) {
+  * {
+    z-index: 99;
+  }
+  #footer #container {
+    font-family: "Roboto Condensed", sans-serif;
+    justify-content: center;
+    display: flex;
+  }
+  #footer hr.solid {
+    margin-top: 50px;
+    width: 1150px;
+    border-top: 1px solid #c5c5c5;
+  }
+  #footer hr.solid-2 {
+    margin-top: 10px;
+    width: 1150px;
+    border-top: 1px solid #c5c5c5;
+  }
+  #footer hr.solid-3 {
+    margin-top: 30px;
+    width: 1150px;
+    border-top: 1px solid #c5c5c5;
+  }
+  #footer .summary {
+    width: 700px;
+  }
+  #footer .summary img {
+    margin-top: 50px;
+    width: 300px;
+  }
+  #footer .tittle {
+    font-weight: bolder;
+  }
+  #footer .list-links {
+    display: flex;
+    flex-direction: row;
+    border-left: 1px black solid;
+  }
+  #footer li {
+    list-style-type: none;
+    margin-top: 15px;
+  }
+  #footer .newsletter {
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+  }
+  #footer h4 {
+    margin-bottom: 2px;
+  }
+  #footer .email {
+    font-family: "Roboto Condensed", sans-serif;
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+  }
+  #footer .email button {
+    padding: 10px;
+    width: 90px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  #footer .email input {
+    padding: 10px;
+    border: 2px rgb(224, 224, 224) solid;
+    border-radius: 10px;
+  }
+  #footer button {
+    font-weight: bold;
+    color: white;
+    background-color: #171717;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 0.6rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  #footer button span:not(:nth-child(6)) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    background-color: #5b0077;
+    border-radius: 50%;
+    transition: 0.6s ease;
+  }
+  #footer button span:nth-child(6) {
+    position: relative;
+  }
+  #footer button span:nth-child(1) {
+    transform: translate(-3.3em, -4em);
+  }
+  #footer button span:nth-child(2) {
+    transform: translate(-6em, 1.3em);
+  }
+  #footer button span:nth-child(3) {
+    transform: translate(-0.2em, 1.8em);
+  }
+  #footer button span:nth-child(4) {
+    transform: translate(3.5em, 1.4em);
+  }
+  #footer button span:nth-child(5) {
+    transform: translate(3.5em, -3.8em);
+  }
+  #footer button:hover span:not(:nth-child(6)) {
+    transform: translate(-50%, -50%) scale(4);
+    transition: 1.5s ease;
+  }
+  #footer .copy {
+    font-family: "Roboto Condensed", sans-serif;
+    justify-content: center;
+    display: flex;
+    color: rgb(192, 192, 192);
+  }
+}
+@media only screen and (max-width: 768px) {
+  * {
+    z-index: 99;
+  }
+  #footer #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap; /* Permitir que os elementos envolvam em telas menores */
+  }
+  hr.solid,
+  hr.solid-2,
+  hr.solid-3 {
+    margin-top: 20px; /* Reduzido o espaço superior */
+    width: 90%; /* Alterado para ocupar 90% da largura da tela */
+    border-top: 1px solid #c5c5c5;
+  }
+  .summary {
+    text-align: center;
+    width: 90%; /* Alterado para ocupar 90% da largura da tela */
+  }
+  .summary img {
+    margin-top: 20px; /* Reduzido o espaço superior */
+    width: 100%; /* Alterado para ocupar toda a largura disponível */
+  }
+  .tittle {
+    font-weight: bold; /* Corrigido typo */
+  }
+  .list-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /* Alterado para exibir os links verticalmente em vez de horizontalmente */
+    border-left: none; /* Removido a borda esquerda */
+  }
+  li {
+    list-style-type: none;
+    margin-top: 15px;
+  }
+  .newsletter {
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h4 {
+    margin-bottom: 2px;
+  }
+  .cont-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .email {
+    font-family: "Roboto Condensed", sans-serif;
+    margin-top: 20px;
+    flex-direction: column; /* Alterado para exibir os elementos verticalmente */
+    align-items: center;
+  }
+  .email button {
+    margin-top: 10px; /* Adicionado espaço superior */
+    padding: 10px;
+    width: 80%; /* Alterado para ocupar 70% da largura da tela */
+    max-width: 200px; /* Adicionado um limite máximo de largura */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .email input {
+    margin-top: 10px; /* Adicionado espaço superior */
+    padding: 10px;
+    width: 70%; /* Alterado para ocupar 70% da largura da tela */
+    max-width: 200px; /* Adicionado um limite máximo de largura */
+    border: 2px rgb(224, 224, 224) solid;
+    border-radius: 10px;
+  }
+  button {
+    font-weight: bold;
+    color: white;
+    background-color: #171717;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 0.6rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  button span:not(:nth-child(6)) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    background-color: #5b0077;
+    border-radius: 50%;
+    transition: 0.6s ease;
+  }
+  button span:nth-child(6) {
+    position: relative;
+  }
+  button span:nth-child(1) {
+    transform: translate(-3.3em, -4em);
+  }
+  button span:nth-child(2) {
+    transform: translate(-6em, 1.3em);
+  }
+  button span:nth-child(3) {
+    transform: translate(-0.2em, 1.8em);
+  }
+  button span:nth-child(4) {
+    transform: translate(3.5em, 1.4em);
+  }
+  button span:nth-child(5) {
+    transform: translate(3.5em, -3.8em);
+  }
+  button:hover span:not(:nth-child(6)) {
+    transform: translate(-50%, -50%) scale(4);
+    transition: 1.5s ease;
+  }
+  .copy {
+    font-family: "Roboto Condensed", sans-serif;
+    justify-content: center;
+    display: flex;
+    color: rgb(192, 192, 192);
+  }
+  p {
+    text-align: center;
+  }
+}/*# sourceMappingURL=footer.component.css.map */
